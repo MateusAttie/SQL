@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_Case_1_Nac_2.YM" id="53111797-B42C-2BAD-1F71-4EFC0376CEE8" version="3.5">
+<createdBy>Mateus</createdBy>
+<createdTime>2014-05-05 16:44:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>Modelo_Case_1_Nac_2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>53111797-B42C-2BAD-1F71-4EFC0376CEE8</designId>
+</OSDM_Design>
