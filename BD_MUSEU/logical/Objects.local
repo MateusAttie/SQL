@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="45A0555A-794F-D00A-96A8-C75CC2FB0940" name="Pintura" seqName="seg_0"/>
+   <object objectType="Entity" objectID="74B59D6E-C8F9-731F-2F18-F73F525E6665" name="Outras_Coleções" seqName="seg_0"/>
+   <object objectType="Entity" objectID="84B40646-6851-F600-1DB3-EB27F3A549E2" name="Escultura" seqName="seg_0"/>
+   <object objectType="Entity" objectID="AE56FCD8-12FB-F4B5-3084-130994F7A4A6" name="Outros" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D40978CC-03F0-AD6F-846E-8BA97410C74D" name="Objetos_Arte" seqName="seg_0"/>
+   <object objectType="Entity" objectID="D6DCE628-AD6A-C0DC-C66B-0F0B4A757A7F" name="Coleção_Permanente" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DE777444-F269-BD88-F2BE-79721E133E51" name="Artista" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E90DF4F5-9269-4674-F579-7EBD917E1F0E" name="Exposicoes" seqName="seg_0"/>
+   <object objectType="Entity" objectID="CF5CDF37-0ED2-85F5-21DC-E8C45EE72A97" name="Estatuaria" seqName="seg_0"/>
+   <object objectType="Relation" objectID="28EE4163-0C65-7F9E-DC86-8C3B48E31D16" name="év1" seqName="seg_0"/>
+   <object objectType="Relation" objectID="7780BFA4-C326-4DE1-C0FE-5215B59C0252" name="Possuem" seqName="seg_0"/>
+   <object objectType="Relation" objectID="852DDF7C-ED16-000C-3FC3-590E2A135C64" name="possui" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8FB68D85-F4EA-D235-0E04-935439663556" name="é" seqName="seg_0"/>
+   <object objectType="Relation" objectID="CB8F8B2C-4D46-A966-09BA-8DBC767E2C1F" name="contém" seqName="seg_0"/>
+   <object objectType="Relation" objectID="FE97A9AF-93C6-8074-CFF6-A417B3EAA4E1" name="év2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="1C9AF37F-D31E-CD84-D991-2B954D85926A" name="Relation_9" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BDE3EEF5-B806-CED4-1AFD-A05581F6145A" name="Relation_10" seqName="seg_0"/>
+   <object objectType="Arc" objectID="CEB46C86-D51C-5D1A-3686-1A5295E9825E" name="Arc_4" seqName="seg_0"/>
+   <object objectType="Arc" objectID="D015216F-B9D6-E44F-7781-3F0927B0E8EE" name="Arc_5" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

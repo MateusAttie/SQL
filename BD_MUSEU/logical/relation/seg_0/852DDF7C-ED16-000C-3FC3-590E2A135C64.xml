@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possui" directorySegmentName="seg_0" id="852DDF7C-ED16-000C-3FC3-590E2A135C64">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-05 12:37:49 UTC</createdTime>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<engineerTo>
+<item key="43D86F2B-F16C-D48A-5CF1-258914D4AD39" value="true"/>
+</engineerTo>
+<sourcePk>59A65984-0F59-18B3-C270-66D8E6EDDDBD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DE777444-F269-BD88-F2BE-79721E133E51</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D40978CC-03F0-AD6F-846E-8BA97410C74D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

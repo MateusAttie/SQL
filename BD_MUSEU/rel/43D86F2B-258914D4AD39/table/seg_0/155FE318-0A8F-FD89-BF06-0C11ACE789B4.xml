@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="155FE318-0A8F-FD89-BF06-0C11ACE789B4" name="Outras_Coleções">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>74B59D6E-C8F9-731F-2F18-F73F525E6665</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Objeto_Arte" id="EA686505-AA99-47C5-D55E-B0992539AA3E">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>7DE3DA15-A8F4-E3DF-E673-DED94F1D9685</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>1048CAF0-EE51-9D2F-43DD-E8F66D61962C</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6216611F-0A58-AEF4-84A6-AC7765F1F8AD" referredColumn="1048CAF0-EE51-9D2F-43DD-E8F66D61962C"/>
+</associations>
+</Column>
+<Column name="cod_coleção" id="7B1C32E4-8F69-D707-BF18-04E614FBC8F6">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>8F9F36FA-5672-3DB2-F6DE-A359DEF24737</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="2755020D-7942-81A9-3A2F-95C44F24D3F8">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>ADF89290-07D3-30A6-3E2F-B60563DC98DD</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="29E2EF0E-E16E-580A-E7DA-A55C38B1259B">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>CA118042-E1B8-E670-1876-0EF77E13533C</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descrição" id="481925C6-AE2D-3705-2F6A-6BC2650DDC3A">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>5A748BC3-F8E1-8945-6669-A1E56E4BB781</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="3666AAF4-4DC2-FFEA-9BDB-BD92E2AAF090">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>BF41F044-8D5F-80BE-544E-D3CF36C9E5AC</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="930CDC8D-4C95-0204-4731-B5540207C35D">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>801DF78C-168B-255A-839D-10DAAEC346EA</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>40</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD93C799-274E-A5BA-C5B4-B5576FA499AA" name="Outras_Coleções_PKv1">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>0C368891-1492-9E56-7CBE-18E8CD45B181</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B1C32E4-8F69-D707-BF18-04E614FBC8F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23A3F4A5-D811-A9B0-29D3-4079860B0117" name="Outras_Coleções_PK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>5EE49D41-9308-21DD-D31D-F26EA77E56FC</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA686505-AA99-47C5-D55E-B0992539AA3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB2C44FF-F674-4B96-6EAF-87C4A86A47E6" name="Outras_Coleções__UN">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>2034B3F1-FFF9-C7DD-7EBD-2F5C44A95E33</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2755020D-7942-81A9-3A2F-95C44F24D3F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DBA79157-D083-3655-A74F-B0161C3849DF" name="Outras_Coleções_Objetos_Arte_FK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>47132AC9-0B3E-625B-16D4-69E4371D4ECE</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA686505-AA99-47C5-D55E-B0992539AA3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

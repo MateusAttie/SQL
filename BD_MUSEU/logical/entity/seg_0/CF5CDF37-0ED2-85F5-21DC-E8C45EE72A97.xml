@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF5CDF37-0ED2-85F5-21DC-E8C45EE72A97" name="Estatuaria">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 13:51:26 UTC</createdTime>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<engineerTo>
+<item key="43D86F2B-F16C-D48A-5CF1-258914D4AD39" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_estatuaria" id="E41BD41A-442A-AA95-AB22-CE2B96C774BF">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 13:51:26 UTC</createdTime>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<engineerTo>
+<item key="43D86F2B-F16C-D48A-5CF1-258914D4AD39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+</Attribute>
+<Attribute name="material" id="A3FA1F1E-4D29-EE58-203A-C0B689086167">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 13:51:26 UTC</createdTime>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<engineerTo>
+<item key="43D86F2B-F16C-D48A-5CF1-258914D4AD39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="altura" id="9F9EC89B-52EB-91B5-99B3-952E80E83805">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 13:51:26 UTC</createdTime>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<engineerTo>
+<item key="43D86F2B-F16C-D48A-5CF1-258914D4AD39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+</Attribute>
+<Attribute name="peso" id="007E0D24-8894-CCFA-EBDE-F803ABD2CBCE">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 13:51:26 UTC</createdTime>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<engineerTo>
+<item key="43D86F2B-F16C-D48A-5CF1-258914D4AD39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+</Attribute>
+<Attribute name="estilo" id="B21C86F2-BEF0-D4F7-0715-8149AF704738">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 13:51:26 UTC</createdTime>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<engineerTo>
+<item key="43D86F2B-F16C-D48A-5CF1-258914D4AD39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B692FCB-F55B-2515-286A-0862007FB23C" name="{entity} PK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 13:51:26 UTC</createdTime>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="43D86F2B-F16C-D48A-5CF1-258914D4AD39" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E41BD41A-442A-AA95-AB22-CE2B96C774BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="CEB46C86-D51C-5D1A-3686-1A5295E9825E" name="Arc_4">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 11:58:02 UTC</createdTime>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<engineerTo>
+<item key="43D86F2B-F16C-D48A-5CF1-258914D4AD39" value="true"/>
+</engineerTo>
+<entity>D40978CC-03F0-AD6F-846E-8BA97410C74D</entity>
+<propertyMap>
+<property name="DynamicProperty_1" value="1"/>
+<property name="DynamicProperty_2" value="2"/>
+</propertyMap>
+<relations>
+<relationID>CB8F8B2C-4D46-A966-09BA-8DBC767E2C1F</relationID>
+<relationID>BDE3EEF5-B806-CED4-1AFD-A05581F6145A</relationID>
+</relations>
+</Arc>

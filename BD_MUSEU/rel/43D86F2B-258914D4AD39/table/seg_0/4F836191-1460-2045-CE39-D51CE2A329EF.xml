@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F836191-1460-2045-CE39-D51CE2A329EF" name="Artista">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>DE777444-F269-BD88-F2BE-79721E133E51</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_artista" id="0B2E1A76-E9A0-F741-ADAE-01D17E0EC69D">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>A75337DE-1257-55C7-EE73-1596BEE154A6</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="92AFFD18-651A-8930-A3B5-46C478F43705">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>B3CAD83C-9442-5207-8348-06B30BE36E5D</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nasc" id="21EC57A2-9382-FEEB-5CA0-FC13868AAE15">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>FC91CFBB-2D57-F44C-0C33-24D38C6071FD</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_morte" id="48D4730F-D914-6008-9A02-2C1345F0CD2E">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>AD6B8588-3266-A092-A980-01C89EFEA878</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="país_de_origem" id="C2781A59-9E7B-FC5F-6DE8-9B166D522644">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>074BBEE1-21B1-34D3-43DC-5B8B590E5C5A</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="periodo" id="C4BA0FE3-22F5-0AC7-D7AC-85EEE3071484">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>82B6927F-659D-8768-EA96-9CE586990069</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estilo_Principal" id="52280690-999A-E0CE-CD7F-54B636D84557">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>6500F360-9601-2BCF-EA6F-8832EE18DA08</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descrição" id="88A4A714-B483-1A8A-26F7-78C107F8D640">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>8893526C-8CF7-2752-C98A-638446979C35</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73D1946E-88BF-3D53-ECB8-CCD7C19D2660" name="Artista_PK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>59A65984-0F59-18B3-C270-66D8E6EDDDBD</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B2E1A76-E9A0-F741-ADAE-01D17E0EC69D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5A630FA-7891-715E-2EEF-8CC43ADD3EAB" name="Artista__UN">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>533E1805-B504-00E7-E966-D90BF44B6EE8</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92AFFD18-651A-8930-A3B5-46C478F43705"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

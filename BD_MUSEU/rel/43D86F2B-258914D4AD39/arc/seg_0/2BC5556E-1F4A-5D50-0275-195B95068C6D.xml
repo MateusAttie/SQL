@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="2BC5556E-1F4A-5D50-0275-195B95068C6D" name="FKArc_6">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 12:01:37 UTC</createdTime>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<mandatory>false</mandatory>
+<table>CB2B5EEC-AF78-213A-09EB-448BE197043E</table>
+<fkeys>
+<fkeyID>3D22B81D-04A5-8DCA-F58A-6C2022608B6F</fkeyID>
+<fkeyID>9C84FE27-1E2A-C8B6-3864-D3BE23975483</fkeyID>
+<fkeyID>340C2169-EC67-74BD-B964-BE178125FFD5</fkeyID>
+<fkeyID>B140075B-00D3-7539-54D4-C16771F4D05F</fkeyID>
+</fkeys>
+</FKArc>

@@ -1,0 +1,152 @@
+CREATE TABLE Artista
+  (
+    cod_artista      NUMBER (2,4) NOT NULL ,
+    nome             VARCHAR2 (200) ,
+    data_nasc        DATE ,
+    data_morte       DATE ,
+    país_de_origem   VARCHAR2 (200) NOT NULL ,
+    periodo          VARCHAR2 (300) NOT NULL ,
+    Estilo_Principal VARCHAR2 (200) NOT NULL ,
+    Descrição        VARCHAR2 (300) NOT NULL
+  ) ;
+ALTER TABLE Artista ADD CONSTRAINT Artista_PK PRIMARY KEY ( cod_artista ) ;
+ALTER TABLE Artista ADD CONSTRAINT Artista__UN UNIQUE ( nome ) ;
+
+CREATE TABLE Coleção_Permanente
+  (
+    cod_cp          NUMBER (2,4) NOT NULL ,
+    data_aquisição  DATE NOT NULL ,
+    data_emprestimo DATE NOT NULL ,
+    estado          VARCHAR2 (200) NOT NULL ,
+    custo           NUMBER (4,40) NOT NULL ,
+    data_devolução  DATE NOT NULL
+  ) ;
+ALTER TABLE Coleção_Permanente ADD CONSTRAINT Coleção_Permanente_PK PRIMARY KEY ( cod_cp ) ;
+
+CREATE TABLE Escultura
+  (
+    cod_escultura           NUMBER (2,4) NOT NULL ,
+    material                VARCHAR2 (100) NOT NULL ,
+    altura                  NUMBER (2,4) NOT NULL ,
+    peso                    NUMBER (2,4) NOT NULL ,
+    estilo                  VARCHAR2 (200) NOT NULL ,
+    Objetos_Arte_Cod_Objeto NUMBER (2,4) NOT NULL
+  ) ;
+CREATE UNIQUE INDEX Escultura__IDX ON Escultura
+  (
+    Objetos_Arte_Cod_Objeto ASC
+  )
+  ;
+  ALTER TABLE Escultura ADD CONSTRAINT Escultura_PK PRIMARY KEY ( cod_escultura ) ;
+
+CREATE TABLE Exposicoes
+  (
+    cod_exp     NUMBER (2,4) NOT NULL ,
+    nome_exp    VARCHAR2 (100) NOT NULL ,
+    data_inicio DATE NOT NULL ,
+    data_fim    DATE NOT NULL
+  ) ;
+ALTER TABLE Exposicoes ADD CONSTRAINT Exposicoes_PK PRIMARY KEY ( cod_exp ) ;
+
+CREATE TABLE Objetos_Arte
+  (
+    Cod_Objeto                NUMBER (2,4) NOT NULL ,
+    Artista                   VARCHAR2 (100) ,
+    Ano                       DATE NOT NULL ,
+    Titulo                    VARCHAR2 (150) NOT NULL ,
+    Descrição                 VARCHAR2 (250) NOT NULL ,
+    País                      VARCHAR2 (150) NOT NULL ,
+    Origem                    VARCHAR2 (150) NOT NULL ,
+    Período                   VARCHAR2 (250) NOT NULL ,
+    Exposicoes_cod_exp        NUMBER (2,4) NOT NULL ,
+    Artista_cod_artista       NUMBER (2,4) NOT NULL ,
+    Coleção_Permanente_cod_cp NUMBER (2,4) NOT NULL ,
+    Pintura_cod_pintura       NUMBER NOT NULL ,
+    Escultura_cod_escultura   NUMBER (2,4) NOT NULL ,
+    Outros_cod_outro          NUMBER (2,4) NOT NULL
+  ) ;
+CREATE UNIQUE INDEX Objetos_Arte__IDX ON Objetos_Arte
+  (
+    Pintura_cod_pintura ASC
+  )
+  ;
+CREATE UNIQUE INDEX Objetos_Arte__IDXv1 ON Objetos_Arte
+  (
+    Escultura_cod_escultura ASC
+  )
+  ;
+CREATE UNIQUE INDEX Objetos_Arte__IDXv2 ON Objetos_Arte
+  (
+    Outros_cod_outro ASC
+  )
+  ;
+  ALTER TABLE Objetos_Arte ADD CONSTRAINT Objetos_Arte_PK PRIMARY KEY ( Cod_Objeto ) ;
+
+CREATE TABLE Outras_Coleções
+  (
+    cod_coleção NUMBER (2,4) NOT NULL ,
+    nome        VARCHAR2 (200) NOT NULL ,
+    tipo        VARCHAR2 (200) NOT NULL ,
+    descrição   VARCHAR2 (300) NOT NULL ,
+    endereço    VARCHAR2 (300) NOT NULL ,
+    telefone    NUMBER (9,40) NOT NULL
+  ) ;
+ALTER TABLE Outras_Coleções ADD CONSTRAINT Outras_Coleções_PK PRIMARY KEY ( cod_coleção ) ;
+ALTER TABLE Outras_Coleções ADD CONSTRAINT Outras_Coleções__UN UNIQUE ( nome ) ;
+
+CREATE TABLE Outros
+  (
+    cod_outro               NUMBER (2,4) NOT NULL ,
+    tipo                    VARCHAR2 (100) NOT NULL ,
+    estilo                  VARCHAR2 (200) NOT NULL ,
+    Objetos_Arte_Cod_Objeto NUMBER (2,4) NOT NULL
+  ) ;
+CREATE UNIQUE INDEX Outros__IDX ON Outros
+  (
+    Objetos_Arte_Cod_Objeto ASC
+  )
+  ;
+  ALTER TABLE Outros ADD CONSTRAINT Outros_PK PRIMARY KEY ( cod_outro ) ;
+
+CREATE TABLE Pintura
+  (
+    cod_pintura             NUMBER NOT NULL ,
+    tipo_tinta              VARCHAR2 NOT NULL ,
+    suporte                 VARCHAR2 (100) NOT NULL ,
+    estilo                  VARCHAR2 (200) NOT NULL ,
+    Objetos_Arte_Cod_Objeto NUMBER (2,4) NOT NULL
+  ) ;
+CREATE UNIQUE INDEX Pintura__IDX ON Pintura
+  (
+    Objetos_Arte_Cod_Objeto ASC
+  )
+  ;
+  ALTER TABLE Pintura ADD CONSTRAINT Pintura_PK PRIMARY KEY ( cod_pintura ) ;
+
+CREATE TABLE Coleção_Artista
+  (
+    Outras_Coleções_cod_coleção NUMBER (2,4) NOT NULL ,
+    Artista_cod_artista         NUMBER (2,4) NOT NULL
+  ) ;
+ALTER TABLE Coleção_Artista ADD CONSTRAINT Coleção_Artista_PK PRIMARY KEY ( Outras_Coleções_cod_coleção, Artista_cod_artista ) ;
+
+ALTER TABLE Escultura ADD CONSTRAINT Escultura_Objetos_Arte_FK FOREIGN KEY ( Objetos_Arte_Cod_Objeto ) REFERENCES Objetos_Arte ( Cod_Objeto ) ;
+
+ALTER TABLE Coleção_Artista ADD CONSTRAINT FK_ASS_4 FOREIGN KEY ( Outras_Coleções_cod_coleção ) REFERENCES Outras_Coleções ( cod_coleção ) ;
+
+ALTER TABLE Coleção_Artista ADD CONSTRAINT FK_ASS_5 FOREIGN KEY ( Artista_cod_artista ) REFERENCES Artista ( cod_artista ) ;
+
+ALTER TABLE Objetos_Arte ADD CONSTRAINT Objetos_Arte_Artista_FK FOREIGN KEY ( Artista_cod_artista ) REFERENCES Artista ( cod_artista ) ;
+
+ALTER TABLE Objetos_Arte ADD CONSTRAINT Objetos_Arte_Coleção_Per_FK FOREIGN KEY ( Coleção_Permanente_cod_cp ) REFERENCES Coleção_Permanente ( cod_cp ) ;
+ALTER TABLE Objetos_Arte ADD CONSTRAINT Objetos_Arte_Escultura_FK FOREIGN KEY ( Escultura_cod_escultura ) REFERENCES Escultura ( cod_escultura ) ;
+
+ALTER TABLE Objetos_Arte ADD CONSTRAINT Objetos_Arte_Exposicoes_FK FOREIGN KEY ( Exposicoes_cod_exp ) REFERENCES Exposicoes ( cod_exp ) ;
+
+ALTER TABLE Objetos_Arte ADD CONSTRAINT Objetos_Arte_Outros_FK FOREIGN KEY ( Outros_cod_outro ) REFERENCES Outros ( cod_outro ) ;
+
+ALTER TABLE Objetos_Arte ADD CONSTRAINT Objetos_Arte_Pintura_FK FOREIGN KEY ( Pintura_cod_pintura ) REFERENCES Pintura ( cod_pintura ) ;
+
+ALTER TABLE Outros ADD CONSTRAINT Outros_Objetos_Arte_FK FOREIGN KEY ( Objetos_Arte_Cod_Objeto ) REFERENCES Objetos_Arte ( Cod_Objeto ) ;
+
+ALTER TABLE Pintura ADD CONSTRAINT Pintura_Objetos_Arte_FK FOREIGN KEY ( Objetos_Arte_Cod_Objeto ) REFERENCES Objetos_Arte ( Cod_Objeto ) ;

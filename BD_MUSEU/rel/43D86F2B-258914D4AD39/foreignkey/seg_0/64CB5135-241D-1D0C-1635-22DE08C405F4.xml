@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="64CB5135-241D-1D0C-1635-22DE08C405F4" name="Objetos_Arte_Coleção_Permanente_FK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 12:01:37 UTC</createdTime>
+<generatorID>CB8F8B2C-4D46-A966-09BA-8DBC767E2C1F</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<arc>22FCC3AA-72C7-0C1E-6B16-A1FC49A7DB0B</arc>
+<containerWithKeyObject>CB2B5EEC-AF78-213A-09EB-448BE197043E</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>07B67F50-9192-8490-FB96-B306BE1E19F9</localFKIndex>
+<keyObject>4D4E175D-DDC1-B318-B86B-F7178BA84C4A</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

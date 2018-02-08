@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contém" directorySegmentName="seg_0" id="CB8F8B2C-4D46-A966-09BA-8DBC767E2C1F">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-05 12:37:57 UTC</createdTime>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<engineerTo>
+<item key="43D86F2B-F16C-D48A-5CF1-258914D4AD39" value="true"/>
+</engineerTo>
+<sourcePk>AAB8D4A1-3173-316B-8FF0-8734CC95CCF7</sourcePk>
+<targetPk>5EE49D41-9308-21DD-D31D-F26EA77E56FC</targetPk>
+<arc>CEB46C86-D51C-5D1A-3686-1A5295E9825E</arc>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6DCE628-AD6A-C0DC-C66B-0F0B4A757A7F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D40978CC-03F0-AD6F-846E-8BA97410C74D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

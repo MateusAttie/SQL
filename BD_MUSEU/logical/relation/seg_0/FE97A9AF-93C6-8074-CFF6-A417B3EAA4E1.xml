@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="év2" directorySegmentName="seg_0" id="FE97A9AF-93C6-8074-CFF6-A417B3EAA4E1">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-05 12:38:17 UTC</createdTime>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<engineerTo>
+<item key="43D86F2B-F16C-D48A-5CF1-258914D4AD39" value="true"/>
+</engineerTo>
+<sourcePk>5EE49D41-9308-21DD-D31D-F26EA77E56FC</sourcePk>
+<targetPk>E381F4F9-1D35-810C-4FC3-96543F7BF2F3</targetPk>
+<arc>D015216F-B9D6-E44F-7781-3F0927B0E8EE</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D40978CC-03F0-AD6F-846E-8BA97410C74D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>AE56FCD8-12FB-F4B5-3084-130994F7A4A6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

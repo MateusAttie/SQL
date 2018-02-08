@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Possuem" directorySegmentName="seg_0" id="7780BFA4-C326-4DE1-C0FE-5215B59C0252">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-05 12:37:35 UTC</createdTime>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<engineerTo>
+<item key="43D86F2B-F16C-D48A-5CF1-258914D4AD39" value="true"/>
+</engineerTo>
+<sourcePk>6ABE2E41-9A5B-C123-B9E8-E60B3E2EF7D6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E90DF4F5-9269-4674-F579-7EBD917E1F0E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D40978CC-03F0-AD6F-846E-8BA97410C74D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

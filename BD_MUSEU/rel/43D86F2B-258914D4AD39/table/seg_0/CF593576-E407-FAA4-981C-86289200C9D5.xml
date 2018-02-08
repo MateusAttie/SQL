@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF593576-E407-FAA4-981C-86289200C9D5" name="Outros">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>AE56FCD8-12FB-F4B5-3084-130994F7A4A6</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_outro" id="8455BA96-7EE0-555A-7DCC-0C4C1A3E72E4">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>A1BD1151-989A-603C-9F00-B3474F03A204</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="DA8245AB-5AC0-3BD3-4981-77E369A0D58F">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>FAC74DCC-5717-A91F-4A78-65BA9991BBEA</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estilo" id="72A6B439-5B0C-CC2B-DFFC-4A62690CF4E3">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>C2589C76-AF1C-82AF-22F3-CEA4074BB4A7</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6E106DF-E4B4-03CE-6EA5-2D7232C3A5FA" name="Outros_PK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>E381F4F9-1D35-810C-4FC3-96543F7BF2F3</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8455BA96-7EE0-555A-7DCC-0C4C1A3E72E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

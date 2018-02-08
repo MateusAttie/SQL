@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8B745D6E-5058-40F6-882C-9F2C7EAA40B8" mainViewID="13783372-CBA5-BBF0-CF60-23F86B4A725E">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-05 12:08:31 UTC</createdTime>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

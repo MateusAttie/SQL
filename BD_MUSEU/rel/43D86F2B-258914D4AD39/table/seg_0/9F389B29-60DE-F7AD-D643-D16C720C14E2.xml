@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F389B29-60DE-F7AD-D643-D16C720C14E2" name="Escultura">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>84B40646-6851-F600-1DB3-EB27F3A549E2</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_escultura" id="F751E122-0AA6-200B-08B9-92A2F40BAAD5">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>34E67FB8-1402-D3EE-96C0-265D46F897C8</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="material" id="8D364A96-88D3-E419-F0B6-35CF9C2198EC">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>618C17D8-5AD7-60F0-5C7F-E76A54714D22</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="altura" id="2B7E30E1-B501-7307-CAA1-3983A4A83053">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>DEB2F42A-DBBC-B4ED-FB70-F0C9FAA8FE58</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="71A594D1-9A0A-3363-F4F5-AF04866C6A71">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>EEE6F2CF-D871-ABD4-D9DE-3AC0761DCD82</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estilo" id="16712F5E-33E9-4666-249D-92822D78639B">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>9C2F8987-8BCB-40D5-7C4A-865BD8BA6F2F</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEF3B718-B21E-7395-C5C7-880EACA332F2" name="Escultura_PK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>10C85696-BB2B-153B-1B3D-A2FE642AEDA7</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F751E122-0AA6-200B-08B9-92A2F40BAAD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

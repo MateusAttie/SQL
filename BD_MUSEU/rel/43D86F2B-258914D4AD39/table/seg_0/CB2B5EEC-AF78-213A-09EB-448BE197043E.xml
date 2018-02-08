@@ -1,0 +1,336 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB2B5EEC-AF78-213A-09EB-448BE197043E" name="Objetos_Arte">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>D40978CC-03F0-AD6F-846E-8BA97410C74D</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cod_Objeto_Arte" id="1048CAF0-EE51-9D2F-43DD-E8F66D61962C">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>7DE3DA15-A8F4-E3DF-E673-DED94F1D9685</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Artista" id="F33BB075-C6FB-97EF-79BE-8FC17CE8C421">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>2AA4C5CE-D444-94AE-50B3-1138E0C8F186</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ano" id="BCD3486E-DC77-6015-C8CE-CA8159DD1182">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>5F289AA6-217D-1517-E26C-75E67A85372B</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titulo" id="82EAF935-8C4A-B915-749C-6F5AEB316F14">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>DB880B36-11A2-3B8E-FC11-DA5E55B0CF78</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descrição" id="187AA763-F1BE-9725-4E2F-C5C3DD3A0633">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>D08B8EC6-F9C5-49F5-55FE-C4A499E57595</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="País" id="EFAB1447-1F21-0672-3013-C083981EA6F8">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>5CBEC652-BDFB-C16E-D0A9-5DA6FF7B2D4F</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Origem" id="B4695EAB-4C17-950C-C557-0F4FFC3E46D1">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>B48841D1-07BF-F152-994D-1C98A39CC0FD</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Período" id="9EA5A36F-D8FE-9A73-B510-D5D21C2124CD">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>26BF10AB-D39A-844C-C47E-DE0539941427</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Exposicoes_cod_exp" id="9783591A-DD8E-D419-4418-1C61075E22A7">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>C70DE18C-D240-69A1-E177-C0DE8353F129</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>992B4C76-B02C-1714-9EDE-3F14D6FBFDB8</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43723410-A3A8-38B7-1A1B-547726DDCF75" referredColumn="992B4C76-B02C-1714-9EDE-3F14D6FBFDB8"/>
+</associations>
+</Column>
+<Column name="Artista_cod_artista" id="67CB5081-8CC7-C12D-140C-DCE2B6496615">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>29CEF621-38F5-A15A-63FC-5511097717F4</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>0B2E1A76-E9A0-F741-ADAE-01D17E0EC69D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF8ADFC6-1DB8-7420-63B9-D9BCD8491997" referredColumn="0B2E1A76-E9A0-F741-ADAE-01D17E0EC69D"/>
+</associations>
+</Column>
+<Column name="Coleção_Permanente_cod_cp" id="1D320F47-CC08-4A81-D46C-840EA425D419">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 12:01:37 UTC</createdTime>
+<generatorID>38E05E50-CE49-BE77-DC25-A9149B164A5E</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>4445954F-ADC7-3557-E3E4-3519D70AD8A0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64CB5135-241D-1D0C-1635-22DE08C405F4" referredColumn="4445954F-ADC7-3557-E3E4-3519D70AD8A0"/>
+</associations>
+</Column>
+<Column name="Outras_Coleções_cod_coleção" id="83628E11-5193-77E5-84EF-A11D8A016A00">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 12:01:37 UTC</createdTime>
+<generatorID>47E831CE-3329-9577-B6E6-E196FDBBD3F3</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>7B1C32E4-8F69-D707-BF18-04E614FBC8F6</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C326122E-E98B-45F5-CD42-252478E57658" referredColumn="7B1C32E4-8F69-D707-BF18-04E614FBC8F6"/>
+</associations>
+</Column>
+<Column name="Pintura_cod_pintura" id="405674F5-22C6-FA9B-9607-262030C7DA60">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 12:01:37 UTC</createdTime>
+<generatorID>6EFF2995-C483-B4EA-3D68-F4D4A8EA2B98</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>4FE50843-64C5-C031-3AF0-66D94F0C4EE0</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D22B81D-04A5-8DCA-F58A-6C2022608B6F" referredColumn="4FE50843-64C5-C031-3AF0-66D94F0C4EE0"/>
+</associations>
+</Column>
+<Column name="Escultura_cod_escultura" id="57439133-2A5F-0654-2A9F-71B6362706C6">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 12:01:37 UTC</createdTime>
+<generatorID>D41CE9AA-E5ED-8E8C-79EB-3035BFBD13C6</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>F751E122-0AA6-200B-08B9-92A2F40BAAD5</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C84FE27-1E2A-C8B6-3864-D3BE23975483" referredColumn="F751E122-0AA6-200B-08B9-92A2F40BAAD5"/>
+</associations>
+</Column>
+<Column name="Outros_cod_outro" id="D6927C5B-2339-C7B4-A50E-38DE5A55168E">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 12:01:37 UTC</createdTime>
+<generatorID>6ABAFEB9-61BD-2BA5-3E9C-CCE3778A3587</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>8455BA96-7EE0-555A-7DCC-0C4C1A3E72E4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B140075B-00D3-7539-54D4-C16771F4D05F" referredColumn="8455BA96-7EE0-555A-7DCC-0C4C1A3E72E4"/>
+</associations>
+</Column>
+<Column name="Estatuaria_cod_estatuaria" id="D8422FC3-4D43-ADEB-ADB3-5DC08C3D7555">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 12:01:37 UTC</createdTime>
+<generatorID>2B1ACF4F-F7EF-746A-2025-F7F23574BAF9</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>2DC79454-2E23-BDBD-80F2-A75F1C3F14A1</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="340C2169-EC67-74BD-B964-BE178125FFD5" referredColumn="2DC79454-2E23-BDBD-80F2-A75F1C3F14A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDBC6A63-E861-425B-B87A-5EB1C67EC1E7" name="Objetos_Arte_PK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>5EE49D41-9308-21DD-D31D-F26EA77E56FC</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1048CAF0-EE51-9D2F-43DD-E8F66D61962C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D226F32-3B1F-18AD-1197-52B5A03FC4EF" name="Objetos_Arte_Exposicoes_FK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>7780BFA4-C326-4DE1-C0FE-5215B59C0252</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9783591A-DD8E-D419-4418-1C61075E22A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14732245-D5D1-BBBC-5B21-150191F209DD" name="Objetos_Arte_Artista_FK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-06 14:45:38 UTC</createdTime>
+<generatorID>852DDF7C-ED16-000C-3FC3-590E2A135C64</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67CB5081-8CC7-C12D-140C-DCE2B6496615"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37080D2C-9F9F-BBE5-1384-66D6EEFA7D21" name="Objetos_Arte_Outras_Coleções_FK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 12:01:37 UTC</createdTime>
+<generatorID>BDE3EEF5-B806-CED4-1AFD-A05581F6145A</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83628E11-5193-77E5-84EF-A11D8A016A00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AFC382B-E40B-7158-B013-A3E4CEB76B9C" name="Objetos_Arte_Estatuaria_FK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 12:01:37 UTC</createdTime>
+<generatorID>1C9AF37F-D31E-CD84-D991-2B954D85926A</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8422FC3-4D43-ADEB-ADB3-5DC08C3D7555"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07B67F50-9192-8490-FB96-B306BE1E19F9" name="Objetos_Arte_Coleção_Permanente_FK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 12:01:37 UTC</createdTime>
+<generatorID>CB8F8B2C-4D46-A966-09BA-8DBC767E2C1F</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D320F47-CC08-4A81-D46C-840EA425D419"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="035139D5-448B-D32D-E7CD-AB0F1DBC6213" name="Objetos_Arte_Pintura_FK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 12:01:37 UTC</createdTime>
+<generatorID>8FB68D85-F4EA-D235-0E04-935439663556</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="405674F5-22C6-FA9B-9607-262030C7DA60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32DD89E2-B213-7ED2-BCF2-CDB5B3CF310A" name="Objetos_Arte_Escultura_FK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 12:01:37 UTC</createdTime>
+<generatorID>28EE4163-0C65-7F9E-DC86-8C3B48E31D16</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57439133-2A5F-0654-2A9F-71B6362706C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4FE6CC7-BB25-946D-F2C9-9BE19DB5C136" name="Objetos_Arte_Outros_FK">
+<createdBy>rm69807</createdBy>
+<createdTime>2015-10-20 12:01:37 UTC</createdTime>
+<generatorID>FE97A9AF-93C6-8074-CFF6-A417B3EAA4E1</generatorID>
+<ownerDesignName>BD_MUSEU</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6927C5B-2339-C7B4-A50E-38DE5A55168E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
